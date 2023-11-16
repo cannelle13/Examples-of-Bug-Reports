@@ -887,4 +887,184 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/gciv0ae2tzxqfvke76q1h/hw_5_bug_5.png?rlkey=bm8z42sbidvt61xgwyr0lrn4u&dl=0)
 
+## Category: Homework-6
+
+Task: Within the checklist, you are required to enter bugs found during the testing of the mobile application into the Mantis bug tracker.
+
+---
+### ID-31: [Mobile] iOS: The app crashes on the main screen after tapping the settings icon.
+
+**Description:** The app crashes on the main screen after tapping the settings icon.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the settings icon the right bottom corner.
+3. Pay attention to the app’s crash.
+
+**Actual result:** The app crashes on the main screen after tapping the settings icon.
+
+**Expected result:** The “Settings” screen is opened after tapping the settings icon.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/c0rlhb27lhmq6kziarwxz/hw6_bug_1.MP4?rlkey=gqnfyetywew5fxi18pbkwz9wb&dl=0)
+
+Attached logs: [View the Log File Attachment](https://www.dropbox.com/scl/fi/o9o7md7zv4kzrqerrp04h/unitconverter_crash_settings_log.txt?rlkey=938ieeoei5c0hn9b08zxxw1b9&dl=0) 
+
+**Attachments:** 
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/mdfa5v2l6glnd9di5by06/hw6_bug_1.jpg?rlkey=is8b0fwp4bfxuw6rlezn4tvwk&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+---
+### ID-32: [Mobile] iOS: The app crashes after tapping the “Currency” icon in the “COMMON CONVERTERS” menu.
+
+**Description:** The app crashes after tapping the “Currency” icon in the “COMMON CONVERTERS” menu.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the “Currency” icon the “COMMON CONVERTERS” menu.
+3. Pay attention to the app’s crash.
+
+**Actual result:** The app crashes after tapping the “Currency” icon in the “COMMON CONVERTERS” menu.
+
+**Expected result:** The “Currency” exchange screen is opened after tapping the “Currency” icon in the “COMMON CONVERTERS” menu.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/j8nota6atl50dop45wi53/hw6_bug_2.MP4?rlkey=d51y0ixaw6vu3l0rxmz57q7zo&dl=0)
+
+Attached logs: [View the Log File Attachment](https://www.dropbox.com/scl/fi/ukr6bs26ehck9aayzqmsi/unitconverter_crash_currency_log.txt?rlkey=s3vly2xmymcdfbtwra6srflha&dl=0)
+
+**Attachments:** 
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/wxpipkrog65rby3qn8irl/hw6_bug_2.jpg?rlkey=idjk86r7tv063apyrobf08qvo&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+---
+### ID-33: [Mobile] iOS: The “7 days FREE” button is misaligned on the Unit Converter Pro screen after tapping the “Currency” icon.
+
+**Description:** The “7 days FREE” button is shifted to the right on the Unit Converter Pro screen in the “Categories” menu after tapping the “Currency” icon.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the candy box menu.
+3. Tap the “Currency” icon.
+4. Pay attention to the “7 days FREE” button.
+
+**Actual result:** The “7 days FREE” button is shifted to the right on the Unit Converter Pro screen in the “Categories” menu after tapping the “Currency” icon.
+
+**Expected result:** The “7 days FREE” button is fully visible on the Unit Converter Pro screen in the “Categories” menu after tapping the “Currency” icon.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The bug is also reproduced after tapping the icons in the “Common Converters” section:
+- Time
+- Fuel
+- Volume
+- Pressure
+- Power
+- Force
+- Data Storage
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+**Attachments:**
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/4domlqfzcgmnjcs1cb3rv/hw6_bug_3.jpg?rlkey=tv8wu6r728gxtcqsirb6t0oiw&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+---
+### ID-34: [Mobile] iOS: The subscription costs are not displayed on the Unit Converter Pro screen after tapping the “Currency” icon.
+
+**Description:** The information regarding the monthly and lifetime subscription costs is not displayed on the Unit Converter Pro screen within the “Categories” menu after tapping the “Currency” icon.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the “Currency” icon.
+3. Pay attention to the absence of price information.
+
+**Actual result:** The information regarding the monthly and lifetime subscription costs is not displayed on the Unit Converter Pro screen within the “Categories” menu after tapping the “Currency” icon.
+
+**Expected result:** The information about subscription costs is displayed on the Unit Converter Pro screen within the “Categories” menu after tapping the “Currency” icon.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/acevlpuq4pvo52mhd8n3j/hw6_bug_4.mov?rlkey=zfnu2dmkc4r9xwp19w19dshaa&dl=0)
+
+**Attachments:**
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/9fwrq30or0qe0zla2397k/hw6_bug_4.jpg?rlkey=zuyiivj688z8w7hgsgyg7nkug&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+---
+### ID-35: [Mobile] iOS: The restricted paid features are opened for usage from the bottom menu on the main screen after tapping the icon.
+
+**Description:** The restricted paid features the “Time”, “Fuel”, “Volume”, “Pressure”, “Power”, and “Force” are opened for usage from the bottom menu on the “Common Converters” section after tapping their respective icons.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the “Time” icon.
+3. Pay attention to the availability of the locked conversion function.
+
+**Actual result:** The restricted paid features the “Time”, “Fuel”, “Volume”, “Pressure”, “Power”, and “Force” are opened for usage from the bottom menu on the “Common Converters” section after tapping their respective icons.
+
+**Expected result:** The Unit Converter Pro information page, providing access to all locked conversion features, is opened upon tapping the locked icons.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/oad9sy0f3ncwhqmpqrqhj/hw6_bug_8.MP4?rlkey=106mx9j8otz51drj9z9sf9qvj&dl=0)
+
+**Attachments:** 
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/l3vhax1pelq0gikt3kjdy/hw6_bug_6.jpg?rlkey=1lo9lf7bkzwdqnvfax5bjxbv5&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+---
+
+### ID-36: [Mobile] iOS: The “Continue” button is not tapped on the Unit Converter Pro screen.
+
+**Description:** The “Continue” button is not tapped on the Unit Converter Pro screen.
+
+**Steps To Reproduce:** 
+1. Launch the UnitConverter app.
+2. Tap the “Time” icon in the “COMMON CONVERTERS” menu.
+3. Tap the “Continue” button.
+4. Pay attention to the button response.
+
+**Actual result:** The “Continue” button is not tapped on the Unit Converter Pro screen.
+
+**Expected result:** The purchase process of the full application version is shown upon tapping the “Continue” button.
+
+**Environment:** Mobile iOS
+
+**Additional Information:** 
+
+The “UnitConverter” app, version 1.8
+iPhone 14 PRO iOS 17.2
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/ahhw0n807pqevdf68chdq/hw_6_bug_7.mp4?rlkey=oseyp2xkfytn9jexbntax0f2c&dl=0)
+
+**Attachments:** 
+
+<img src="https://dl.dropboxusercontent.com/scl/fi/0nvw5hvfk9i7e2ttgt22p/hw6_bug_5.jpg?rlkey=f06uzzlbck345drlvyuer23sj&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
 ---
