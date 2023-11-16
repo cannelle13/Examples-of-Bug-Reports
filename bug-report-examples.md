@@ -333,7 +333,9 @@ This bug is additionally observed in browsers:
 - Google Chrome 118.0.5993.118 (64-bit),
 - Opera 104.0.4944.28.
 
-**Attachments:** [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/fhkjp61yloydv1zl70scq/hw3_bug_3.mp4?rlkey=xnrkzw74kp1qpwy2fqlz4ngpo&dl=0)
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/fhkjp61yloydv1zl70scq/hw3_bug_3.mp4?rlkey=xnrkzw74kp1qpwy2fqlz4ngpo&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/4h2td58gfd0in6c9ynilt/hw_3_bug_3.png?rlkey=xj2maait1ujp0me4ahcu8udb0&dl=0)
 
 ---
 ### ID-13: The product quantity is not calculated correctly in the drop-down cart after adding the product to the cart.
