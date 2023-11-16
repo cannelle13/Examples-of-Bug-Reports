@@ -304,7 +304,7 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/7b3j4g65co9do8r4t3tez/hw2_bug_6_1_mod.png?rlkey=l1lv1nkfo57qyarsyuuchyd3h&dl=0)
 
-## Category: Homework-3
+## Category: Homework 3 - Functional Web Desktop Testing.
 
 Task: Create bug reports (functional) in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
 
@@ -498,7 +498,7 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/q8sjbu3nht5yvw3bdcccc/hw_3_bug_5.png?rlkey=vxyhtgbjl2w0fgqkb26y9virm&dl=0)
 
-## Category: Homework-4
+## Category: Homework 4 - Functional Web Desktop Testing.
 
 Task 1: Find 1-3 existing bugs on any website accessible via desktop devices on the Internet. The [EXE.ua](https://exe.ua/en/) website has been chosen.
 
@@ -729,7 +729,7 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/20c2jlj1hkzpr50zfkwj8/hw_4_bug_8.png?rlkey=yf9gicc4k4wspdm4y8lx4lddt&dl=0)
 
 ---
-## Category: Homework-5
+## Category: Homework 5 - Functional Web Desktop Testing.
 
 Task: Create bug reports in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
 
@@ -887,7 +887,7 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/gciv0ae2tzxqfvke76q1h/hw_5_bug_5.png?rlkey=bm8z42sbidvt61xgwyr0lrn4u&dl=0)
 
-## Category: Homework-6
+## Category: Homework 6 - Mobile Testing
 
 Task: Within the checklist, you are required to enter bugs found during the testing of the mobile application into the Mantis bug tracker.
 
@@ -1039,7 +1039,6 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 <img src="https://dl.dropboxusercontent.com/scl/fi/l3vhax1pelq0gikt3kjdy/hw6_bug_6.jpg?rlkey=1lo9lf7bkzwdqnvfax5bjxbv5&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
 
 ---
-
 ### ID-36: [Mobile] iOS: The “Continue” button is not tapped on the Unit Converter Pro screen.
 
 **Description:** The “Continue” button is not tapped on the Unit Converter Pro screen.
@@ -1066,5 +1065,226 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 **Attachments:** 
 
 <img src="https://dl.dropboxusercontent.com/scl/fi/0nvw5hvfk9i7e2ttgt22p/hw6_bug_5.jpg?rlkey=f06uzzlbck345drlvyuer23sj&dl=0" alt="Screenshot of a bug" width="25%" height="25%">
+
+## Category: Homework 7 - Game Testing
+
+Task: Conduct ad-hoc testing on the selected game. Log 4 functional bugs and 4 localization bugs into the bug tracker. The game chosen for this task is 'Hamster Playground' available on Steam.
+
+---
+### ID-37: Win. Hamster’s House. The text of the control hints is superimposed on each other in the "Hamster House" location.
+
+**Description:** The text of the control hints is superimposed on each other in the bottom right corner in the "Hamster House" location in the Ukrainian localization.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Pay attention to the right bottom corner.
+
+**Actual result:** The text of the control hints is superimposed on each other in the bottom right corner in the "Hamster House" location in the Ukrainian localization.
+
+**Expected result:** The control hints are displayed without overlapping in the bottom right corner within the “Hamster House” location in the Ukrainian localization.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/sdw8msjgvcyoalbbb8d2m/hw7_bug_1.png?rlkey=kx5nftqkb8nvgtw7s43qpdt27&dl=0)
+
+---
+### ID-38: Win. Hamster’s House. The hand animation with blurred outlines is displayed in the feeder section.
+
+**Description:** The hand animation with blurred outlines is displayed in the feeder section within the “Hamster House” location.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Pay attention to the hand animation in the feeder section.
+
+**Actual result:** The hand animation with blurred outlines is displayed in the feeder section within the “Hamster House” location.
+
+**Expected result:** The hand animation with clear and well-defined outlines is displayed in the feeder section within the “Hamster House” location.
+
+**Environment:** Windows PC
+
+**Additional Information:** 
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/ar8x0j5087gall9eadex2/hw7_bug2.mp4?rlkey=4nij0gyfyzalr2v1x6r05kai5&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/0nnpdejm16wnsgrvqp009/hw7_bug_2.png?rlkey=6pqrbmpqyzmwjhb0fw4yx7gak&dl=0)
+
+---
+### ID-39: Win. Race. Sync with the server is interrupted after clicking the “Home” button following the exit from the race location.
+
+**Description:** Sync with the server is interrupted after clicking the “Home” button following the exit from the first race location.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Enter the hamster’s house.
+3. Click the “Cup” icon.
+4. Choose the “Quick game against the computer” mode.
+5. Choose the difficulty level.
+6. Click the green check mark to choose the hamster.
+7. Play the race game and click the “Home” button.
+8. Pay attention to the server error message.
+
+**Actual result:** Sync with the server is interrupted after clicking the “Home” button following the exit from the first race location.
+
+**Expected result:** The hamster’s home location is opened after clicking the “Home” button following the exit from the first race location.
+
+**Environment:** Windows PC
+
+**Additional Information:** 
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/s17mjk1qcouwlrqstcdx6/hw7_bug_3.mp4?rlkey=tee7l4dr49pc9orvnmkxcndne&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/4sn0fz1b2d5eo8mn9g3uo/hw7_bug3.png?rlkey=yt34uysyepn66q0kp520i0m2n&dl=0)
+
+---
+### ID-40: Win. Hamster’s House. The “КЕРУВАННЯ” text is truncated beyond the game screen boundaries in the hamster’s house location.
+
+**Description:** The “КЕРУВАННЯ” text is truncated beyond the game screen boundaries in the hamster’s house location after pressing the “h” keyboard button in the Ukrainian localization.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Press the “h” keyboard button.
+6. Pay attention to the text.
+
+**Actual result:** The “КЕРУВАННЯ” text is truncated beyond the game screen boundaries in the hamster’s house location after pressing the “h” keyboard button in the Ukrainian localization.
+
+**Expected result:** The “КЕРУВАННЯ” text is fully contained within the game screen boundaries in the hamster’s house location after pressing the “h” keyboard button in the Ukrainian localization.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/63zxiv376lsrjhu5ho1vl/hw7_bug_4.png?rlkey=e96g74rotcc0lw038rjign317&dl=0)
+
+---
+### ID-41: Win. UKR. Hamster's house. The inaccurate translation of the control hint is displayed in the bottom right corner.
+
+**Description:** The inaccurate translation of the “Меню швидкого команд” control hint is displayed in the bottom right corner in the "Hamster's house" location in the Ukrainian localization.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Pay attention to the right bottom corner.
+
+**Actual result:** The inaccurate translation of the “Меню швидкого команд” control hint is displayed in the bottom right corner in the "Hamster's house" location in the Ukrainian localization.
+
+**Expected result:** The accurate translation “Швидке меню команд” is displayed in the bottom right corner in the "Hamster's house" location in the Ukrainian localization.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/e3zgdkav3gsyjkikpblbl/hw7_bug_5.png?rlkey=tzwtmocqbygl01jf7f2wvqld7&dl=0)
+
+---
+### ID-42: Win. UKR. The inaccurate translation is displayed in the last section on the third page within the “How to play” block.
+
+**Description:** The inaccurate translation “Хамстарі” is displayed in the last section on the third page within the “How to play” block in the Ukrainian localization.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Click the hamster icon to open the “How to play” menu.
+6. Use arrows to open the third page.
+7. Pay attention to the last section translation.
+
+**Actual result:** The inaccurate translation “Хамстарі” is displayed in the last section on the third page within the “How to play” block in the Ukrainian localization.
+
+**Expected result:** The accurate translation “Хом’яки” is displayed in the last section on the third page within the “How to play” block in the Ukrainian localization.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/kfbkskw2fvtjpf5rs1w83/hw7_bug_6.png?rlkey=g07f2oipt3di3hn8yzrtik1gi&dl=0)
+
+---
+### ID-43: Win. UKR. The inaccurate translation of the hint is displayed when the hamster is prompted to perform a different action.
+
+**Description:** The inaccurate translation of the hint “Ваш хом’як занятий - чекайте, поки він закінчиться» is displayed when the hamster is prompted to perform a different action while the previous action is incomplete in the Ukrainian localization.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Enter the hamster’s house.
+4. Send the hamster to train intellect.
+5. Attempt to send the hamster to train strength while training intellect.
+6. Pay attention to the hint.
+
+**Actual result:** The inaccurate translation of the hint “Ваш хом’як занятий - чекайте, поки він закінчиться» is displayed when the hamster is prompted to perform a different action while the previous action is incomplete in the Ukrainian localization.
+
+**Expected result:** The accurate translation “Ваш хом’як занятий - зачекайте, поки він завершить попередню дію” is displayed when the hamster is prompted to perform a different action while the previous action is incomplete in the Ukrainian localization.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/le86ylcq2vcjmf3a2wfh5/hw7_bug_7.png?rlkey=tbrddatc9365se9jk4tato9cf&dl=0)
+
+---
+### ID-44: Win. UKR. The missing translation is displayed on the second page within the “How to play” block.
+
+**Description:** The missing translation is displayed on the bottom of the second page within the “How to play” block.
+
+**Steps To Reproduce:** 
+
+Win11 x64 Enterprise
+
+Patch Version 0.1.42 221213 J171
+
+1. Launch the “Hamster Playground” game.
+2. Click the left mouse button to start the game.
+3. Choose the house with the red roof.
+4. Click the “Play” button.
+5. Click the hamster icon to open the “How to play” menu.
+6. Use arrows to open the second page.
+7. Pay attention to the bottom of the section.
+
+**Actual result:** The missing translation is displayed on the bottom of the second page within the “How to play” block.
+
+**Expected result:** The accurate translation “Під час гонки ви гратимете в різні типи міні-ігор. Вони всі керуються за допомогою однієї кнопки.” is displayed on the second page within the “How to play” block.
+
+**Environment:** Windows PC
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/wv3981mxnpd7xzpq7dlvw/hw7_bug_8.png?rlkey=5l47osou048tk2qnaby3enrnw&dl=0)
 
 ---
