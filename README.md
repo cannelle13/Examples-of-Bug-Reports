@@ -306,7 +306,7 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 ## Category: Homework-3
 
-Task: Create functional bugs in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
+Task: Create bug reports (functional) in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
 
 ---
 ### ID-12: The product that is not available in red is displayed in search results after applying the red color filter.
@@ -498,3 +498,393 @@ Attached video: [View the demonstration of the issue in this video](https://www.
 
 **Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/q8sjbu3nht5yvw3bdcccc/hw_3_bug_5.png?rlkey=vxyhtgbjl2w0fgqkb26y9virm&dl=0)
 
+## Category: Homework-4
+
+Task 1: Find 1-3 existing bugs on any website accessible via desktop devices on the Internet. The [EXE.ua](https://exe.ua/en/) website has been chosen.
+
+---
+### ID-18: The numbers and special characters are accepted in the "First Name", "Middle Name", and "Last Name" fields on the sign-up page.
+
+**Description:** The numbers and special characters are accepted and saved in the "First Name", "Middle Name", and "Last Name" fields on the sign-up page after clicking the "Sign up" button.
+
+**Steps To Reproduce:** 
+1. Open the site https://exe.ua/en/
+2. Click the "Sign up" button in the header.
+3. Enter special characters and numbers in the "First Name", "Middle Name", and "Last Name" fields.
+4. Fill in the remaining fields with valid data.
+5. Click the "Sign up" button.
+6. Pay attention to the accepted data.
+
+**Actual result:** The numbers and special characters are accepted in the "First Name", "Middle Name", and "Last Name" fields on the sign-up page after clicking the "Sign up" button.
+
+**Expected result:** Only alphabetical characters are accepted in the "First Name", "Middle Name", and "Last Name" fields on the sign-up page.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/ayw9guco44if71em5m9z3/hw4_bug_1.mp4?rlkey=a0zyzr1v8fmi2ovkzshfoil0l&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/t68hmqyasqjalppiafbua/hw4_bug_1.png?rlkey=bui54gdr12dlqtkv4qh3683z7&dl=0)
+
+---
+### ID-19: The negative numbers are accepted on the "Price" filter block after entering the value manually.
+
+**Description:** The negative numbers are accepted on the "Price" filter block after entering the value manually.
+
+**Steps To Reproduce:** 
+1. Open the site https://exe.ua/en/.
+2. Choose "PC accessories" / "Video Cards" in the "Catalog" sidebar.
+3. Input negative numbers in the "from" price field.
+4. Click the "Filter products" button.
+5. Pay attention to the "from" price field.
+
+**Actual result:** The negative numbers are accepted on the "Price" filter block after entering the value manually.
+
+**Expected result:** The price fields are highlighted in red on the "Price" filter block after entering a negative value.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/gfarbc6gdaxpq6k3hoz3o/hw4_bug_2.mp4?rlkey=ogryd5aqu84f5se68cf6il5pu&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/0cw6otjlctpf3kdnjiequ/hw4_bug_2.png?rlkey=6294jd2mmpfmm4i3vvwemhddw&dl=0)
+
+---
+### ID-20: The text entry field is not marked as mandatory in the “Quality department” form.
+
+**Description:** The text entry field is not indicated by an asterisk on the feedback form after clicking the “Quality department” link.
+
+**Steps To Reproduce:** 
+1. Open the site https://exe.ua/en/
+2. Click the “Quality dept.” link in the right bottom corner.
+3. Pay attention to the text entry field.
+
+**Actual result:** The text entry field is not indicated by an asterisk on the feedback form after clicking the “Quality department” link.
+
+**Expected result:** The mandatory status of the text entry field before the form submission is shown on the feedback form.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/itiju3bxxavht42x5k0lf/hw4_bug_3.png?rlkey=5di7yrwz14kobtdi61t8mjrvs&dl=0)
+
+---
+Task 2. Create bug reports in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
+
+---
+### ID-21: Negative quantity entries are accepted on the “Dry Cat Food” product page after clicking the minus “QTY” (quantity) button.
+
+**Description:** Negative quantity entries are accepted on the “Dry Cat Food” product page after clicking the minus “QTY” (quantity) button.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net
+2. Open the “Dry Cat Food” product in the “Bestsellers” section.
+3. Use the minus button to set negative product quantity.
+4. Pay attention to the “QTY” field.
+
+**Actual result:** Negative quantity entries are accepted on the “Dry Cat Food” product page after clicking the minus “QTY” (quantity) button.
+
+**Expected result:** Negative quantity values are not accepted for entering on the “Dry Cat Food” product page after clicking the minus “QTY” (quantity) button.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/zz7ke25acpclet96g9wtd/hw4_bug_4.mp4?rlkey=ykhwusfessndr85288fwbxjjx&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/n3j9ae88ojs052x4dt5q9/hw_4_bug_4.png?rlkey=y0kytthe5lr2huqmdgaincxzr&dl=0)
+
+---
+### ID-22: The “Compare this Product” interactive icon is misaligned after hovering the mouse over the product picture.
+
+**Description:** The “Compare this Product” interactive icon is misaligned after hovering the mouse over the “Dry Cat Food” product picture.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Scroll down to the “Bestsellers” section.
+3. Hover the mouse over the “Dry Cat Food” picture.
+4. Pay attention to the “Compare this Product” icon alignment.
+
+**Actual result:** The “Compare this Product” interactive icon is misaligned after hovering the mouse over the “Dry Cat Food” product picture.
+
+**Expected result:** The “Compare this Product” interactive icon is correctly aligned in a single vertical line after hovering the mouse over the “Dry Cat Food” product picture.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+The misalignment is reproducible for all products featuring the “Compare this Product” interactive icon.
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/by75lvrekf1smv17ul3yf/hw_4_bug_5.png?rlkey=sysx745zub4ivn6djopd3u1oe&dl=0)
+
+---
+### ID-23: The interactive icons are not displayed in the “Bestsellers” section after hovering the mouse over the “Parrot toys” product.
+
+**Description:** The interactive icons “Add to Wish List”, “Quick view”, and “Compare this Product” are not displayed in the “Bestsellers” section after hovering the mouse over the “Parrot toys” product.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Scroll down to the “Bestsellers” section.
+3. Hover the mouse over the “Parrot toys” picture.
+4. Pay attention to the absence of interactive icons.
+
+**Actual result:** The interactive icons “Add to Wish List”, “Quick view”, and “Compare this Product” are not displayed in the “Bestsellers” section after hovering the mouse over the “Parrot toys” product.
+
+**Expected result:** The interactive icons “Add to Wish List”, “Quick view”, and “Compare this Product” are displayed in the “Bestsellers” section after hovering the mouse over the “Parrot toys” product.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This issue is also replicated in the following products:
+- Petown Soft sided Pet Carrier pet Carriers Airline Approved with Foldable and Washable (Gray)
+- Exo Terra Crystal Cave, Medium
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/8le2jx3rwc24eclk8zsf1/hw4_bug_6.mp4?rlkey=53rbxgycn7hopr88yj0t43m2t&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/2obbv4j72ypnwx4meoqga/hw_4_bug_6.png?rlkey=shwcgfr89dxkpfc2bvy1qgvvr&dl=0)
+
+---
+### ID-24: The success message is not displayed on the page after adding a product to the wish list from the product page.
+
+**Description:** The success message is not displayed on the bottom notification area of the page after adding the “Dry Cat Food” product to the wish list from the product page.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net
+2. Open the “Dry Cat Food” product in the “Bestsellers” section.
+3. Click the “Add to Wish List” link.
+4. Pay attention to the absence of a success message.
+
+**Actual result:** The success message is not displayed on the bottom notification area of the page after adding the “Dry Cat Food” product to the wish list from the product page.
+
+**Expected result:** The success message is displayed on the bottom notification area of the page after adding the “Dry Cat Food” product to the wish list from the product page.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/5jgjehq4f3fk2e6japmqi/hw4_bug_7.mp4?rlkey=ws42yqbhek5oqismwvnaqn572&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/m3xacivy817u20qndyzp5/hw_4_bug_7.png?rlkey=273p8e1eppn03lls5m5mx567y&dl=0)
+
+---
+### ID-25: The review is sent to the webmaster for approval on the product page after submitting it with an empty mandatory “Name” field.
+
+**Description:** The review is sent to the webmaster for approval on the “Dry Cat Food” product page after submitting it with an empty mandatory “Name” field.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Open the “Dry Cat Food” product in the “Bestsellers” section.
+3. Click the “Write a review” button.
+4. Leave the “Your Name” field empty.
+5. Fill in the “Your Review” field and select a review rating.
+6. Click the “Continue” button.
+7. Pay attention the review is sent for approval.
+
+**Actual result:** The review is sent to the webmaster for approval on the “Dry Cat Food” product page after submitting it with an empty mandatory “Name” field.
+
+**Expected result:** The error message about the necessity to fill the mandatory “Name” field is displayed on the product review section after clicking the “Continue” button.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 118.0.5993.118 (64-bit),
+- Opera 104.0.4944.28.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/6wzamndhdlaq5vo2zsxd2/hw_4_bug_8.mp4?rlkey=q11qb3mtb6y5o2nonkzon7991&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/20c2jlj1hkzpr50zfkwj8/hw_4_bug_8.png?rlkey=yf9gicc4k4wspdm4y8lx4lddt&dl=0)
+
+---
+## Category: Homework-5
+
+Task: Create bug reports in the Mantis bug tracker, found on the [test site](http://opencart.qatestlab.net/) on desktop devices.
+
+---
+### ID-26: The “Price (High > Low)” filter is displayed on the “Dogs” category page after applying the “Price (Low > High)” filter.
+
+**Description:** The “Price (High > Low)” filter is displayed on the “Dogs” category page after applying the “Price (Low > High)” filter.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Choose the “Dogs” menu item.
+3. Apply the “Price (Low > High)” filter.
+4. Pay attention to the “Sort By” filter field.
+
+**Actual result:** The “Price (High > Low)” filter is displayed on the “Dogs” category page after applying the “Price (Low > High)” filter.
+
+**Expected result:** The “Price (Low > High)” filter is displayed on the “Dogs” category page after applying the “Price (Low > High)” filter.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 119.0.6045.106 (64-bit),
+- Opera 104.0.4944.36.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/e52l3j1e8gfmr9wvti8nv/hw5_bug_1.mp4?rlkey=83xil2mg1paegzcwhgka6z1i7&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/tjwvbfxxoxu2thhnds41h/hw_5_bug_1.png?rlkey=xx6vkg9k4ay16u2702wak6bj0&dl=0)
+
+---
+### ID-27: The phone number isn’t updated on the “My Account Information” page after editing.
+
+**Description:** The “Telephone” field isn’t updated on the “My Account Information” page after clicking the “CONTINUE” button.
+
+**Preconditions:**
+1. The user is registered and logged in.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Open the “My Account” page.
+3. Click the “Edit your account information” link.
+4. Update the “Telephone” field.
+5. Click the “CONTINUE” button.
+6. Click the “Edit your account information” link.
+7. Pay attention to the “Telephone” field.
+
+**Actual result:** The “Telephone” field isn’t updated on the “My Account Information” page after clicking the “CONTINUE” button.
+
+**Expected result:** The updated telephone number is displayed on the “My Account Information” page after editing.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 119.0.6045.106 (64-bit),
+- Opera 104.0.4944.36.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/mitghodvxhrbxx9wt20yl/hw5_bug_2.mp4?rlkey=4mx1znchwm2fojnzegwxx2wc2&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/rdd4faykeykobrcsm2ot2/hw_5_bug_2.png?rlkey=1o8eq0x5et1r5gy4vfk0soyh0&dl=0)
+
+---
+### ID-28: The error message is displayed on the “Change Password” page after entering the same passwords in the fields.
+
+**Description:** The “Password confirmation does not match password!” error message is displayed on the “Change Password” page after entering the same passwords in the “Password” and “Password Confirm” fields.
+
+**Preconditions:**
+1. The user is registered and logged in.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Open the “My Account” page.
+3. Click the “Change your password” link.
+4. Fill in the “Password” and “Password Confirm” fields with valid data.
+5. Click the “CONTINUE” button.
+6. Pay attention to the error message.
+
+**Actual result:** The “Password confirmation does not match password!” error message is displayed on the “Change Password” page after entering the same passwords in the “Password” and “Password Confirm” fields.
+
+**Expected result:** The user is redirected to the next password change step after entering the same passwords in the “Password” and “Password Confirm” fields.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 119.0.6045.106 (64-bit),
+- Opera 104.0.4944.36.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/c3nw8m9fydcz8rgupd5j1/hw5_bug_3.mp4?rlkey=ty9uekfcqve4ixq0e88w837z4&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/tzj85ikkwzvx65l99qh6w/hw_5_bug_3.png?rlkey=jxcz4os1wuvd8yxgijvg707pd&dl=0)
+
+---
+### ID-29: The saved address is not deleted on the “Address Book” page after clicking the “DELETE” button.
+
+**Description:** The saved address is not deleted on the “Address Book” page after clicking the “DELETE” button.
+
+**Preconditions:**
+1. The user is registered and logged in.
+2. Two or more addresses are saved on the “Address Book” page.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Open the “My Account” page.
+3. Click the “Address” link.
+4. Click the “DELETE” button near the saved address.
+5. Pay attention to the address book entries.
+
+**Actual result:** The saved address is not deleted on the “Address Book” page after clicking the “DELETE” button.
+
+**Expected result:** The saved address is deleted on the “Address Book” page after clicking the “DELETE” button.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 119.0.6045.106 (64-bit),
+- Opera 104.0.4944.36.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/wlu9hfzow2izqegh5xice/hw5_bug_4.mp4?rlkey=rwb6r9uvm84me4zyzpxtekj65&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/8i0c7uld7vsqlumzxuht9/hw_5_bug_4.png?rlkey=xhovckamzoz3sc2leuwgw9egk&dl=0)
+
+---
+### ID-30: The “Downloads” page isn’t displayed after clicking the “Downloads” link from the “My Account” menu.
+
+**Description:** The “Order History” page instead of the “Downloads” page is displayed after clicking the “Downloads” link from the “My Account” menu.
+
+**Preconditions:**
+1. The user is registered and logged in.
+
+**Steps To Reproduce:** 
+1. Open the site http://opencart.qatestlab.net.
+2. Open the “My Account” page.
+3. Click the “Downloads” link.
+4. Pay attention to the opened page.
+
+**Actual result:** The “Order History” page instead of the “Downloads” page is displayed after clicking the “Downloads” link from the “My Account” menu.
+
+**Expected result:** The “Downloads” page is displayed after clicking the “Downloads” link from the “My Account” menu.
+
+**Environment:** Firefox 119.0 (64-bit) Windows 11 Enterprise
+
+**Additional Information:** 
+
+This bug is additionally observed in browsers:
+- Google Chrome 119.0.6045.106 (64-bit),
+- Opera 104.0.4944.36.
+
+Attached video: [View the demonstration of the issue in this video](https://www.dropbox.com/scl/fi/l65izhzwum4p6fek25u00/hw5_bug_5.mp4?rlkey=ocfi8uvek5zn84osegdkkkl6o&dl=0)
+
+**Attachments:** ![Screenshot of a bug](https://dl.dropboxusercontent.com/scl/fi/gciv0ae2tzxqfvke76q1h/hw_5_bug_5.png?rlkey=bm8z42sbidvt61xgwyr0lrn4u&dl=0)
+
+---
